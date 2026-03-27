@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="UTF-8">
-<title>Rayquaza</title>
+<title>Charizard</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
@@ -22,17 +22,24 @@ h1{
 img{
     width:250px;
 }
+@media (max-width: 600px){
+
+    img{
+        width:120px;
+    }
+
+}
 
 .tipo{
-    background-color:rgb(225, 153, 229);
+    background-color:orange;
     padding:5px 10px;
     border-radius:6px;
 }
-
 .segundotipo{
-    background-color:rgb(96, 135, 219);
+    background-color:lightblue;
     padding:5px 10px;
     border-radius:6px;
+    margin-left:10px;
 }
 
 .boton{
@@ -55,12 +62,12 @@ img{
 
 <body>
 
-<h1>Rayquaza</h1>
+<h1>Charizard</h1>
 
-<img src="../media/rayquaza.png" alt="Cindaquil">
+<img src="../media/charizard.png" alt="Charizard">
 
 <p>
-<strong>Tipo:</strong> <span class="tipo">Dragón</span> <span class="segundotipo">Volador</span>
+<strong>Tipo:</strong> <span class="tipo">fuego</span> <span class="segundotipo">volador</span>
 </p>
 
 <p>
@@ -68,10 +75,25 @@ img{
 </p>
 
 <p>
-Rayquaza ha vivido en la capa de ozono durante millones de años, alimentándose de meteoritos. 
-La energía de estos meteoritos se acumula en su cuerpo y le permite megaevolucionar.
-
+Charizard es un Pokémon de tipo fuego y volador. Es conocido por su fuerza y su habilidad para volar.
 </p>
+
+<h2>Evoluciones</h2>
+
+<div class="evoluciones">
+
+<a href="charmander.html"><img src="../media/charmander.png"></a>
+
+
+<img src="../media/imagesflecha.png">
+
+<a href="charmeleon.html"><img src="../media/charmeleon.png"></a>
+
+<img src="../media/imagesflecha.png">
+
+<a href="charizard.html"><img src="../media/charizard.png"></a>
+
+</div>
 
 <a href="../index.html" class="boton">
 Volver a inicio
